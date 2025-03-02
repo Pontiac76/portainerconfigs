@@ -18,3 +18,6 @@ services:
             - SFTPGO_WEBDAVD_BINDINGS_0_PORT=10080
             - SFTPGO_FTPD_BINDINGS_0_PORT=2121
             - SFTPGO_FTPD_BINDINGS_0_FORCE_PASSIVE_IP='127.0.0.1:8080'
+volumes:
+    sftpgodata:
+    sftpgohome:
